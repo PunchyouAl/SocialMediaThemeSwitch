@@ -2,14 +2,27 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-    color: #ffffff;
 }
 
-.muted {
-    opacity: 0.5;
+h1 {
+    margin-bottom: 0;
 }
 
 .count {
+    margin-top: 15px;
     font-size: 50px;
     font-weight: 700;
+    line-height: 0.9;
+}
+
+.subtext {
+    text-transform: uppercase;
+    letter-spacing: 4.6px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 17px;
+}
+
+.change {
+    font-size: 12px;
 }
