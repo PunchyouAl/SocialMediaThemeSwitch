@@ -35,7 +35,7 @@ h1, h2, h3, .count, .toggleHolder {
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     .banner {
         flex-direction: column;
     }
@@ -48,7 +48,7 @@ h1, h2, h3, .count, .toggleHolder {
     align-items: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     .toggleHolder {
         width: 100%;
         justify-content: space-between;
