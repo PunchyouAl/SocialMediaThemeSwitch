@@ -1,4 +1,4 @@
-git init<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,80 +8,113 @@ git init<!DOCTYPE html>
   
   <title>Frontend Mentor | Social Media Theme Switcher</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/fonts.css">
+
 </head>
 <body>
 
-  Social Media Dashboard
-  Total Followers: 23,004
-
-  Dark Mode
+  
 
   
 
-  @nathanf
-  1987
-  Followers
-  12 Today
+  <div class="banner">
+    <div class="heading">
+      <h1>Social Media Dashboard</h1>
+      <div class="totalFollowers">Total Followers: 23,004</div>
+    </div>
+    <div class="toggleHolder">Dark Mode <div id="toggle" class="dark"><div id="toggleDot"></div></div></div>
+  </div>
+  
+  <div class="mainStats">
+    <div id='facebook' class="stat">
+      <div class="user"><img src="images/icon-facebook.svg" alt=""><div class="muted">@nathanf</div></div>
+      <div class="count">1987</div>
+      <div>Followers</div>
+      <div class="change">12 Today</div>
+    </div>
+    <div id='twitter' class="stat">
+      <div class="user"><img src="images/icon-twitter.svg" alt=""><div class="muted">@nathanf</div></div>
+      <div class="count">1044</div>
+      <div>Followers</div>
+      <div class="change">99 Today</div>
+    </div>
+    <div id='instagram' class="stat">
+      <div class="user"><img src="images/icon-instagram.svg" alt=""><div class="muted">@realnathanf</div></div>
+      <div class="count">11k</div>
+      <div>Followers</div>
+      <div class="change">1099 Today</div>
+    </div>
+    <div id='youtube' class="stat">
+      <div class="user"><img src="images/icon-youtube.svg" alt=""><div class="muted">Nathan F.</div></div>
+      <div class="count">8239</div>
+      <div>Subscribers</div>
+      <div class="change">144 Today</div>
+    </div>
+  </div>
 
-  @nathanf
-  1044
-  Followers
-  99 Today
 
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
+<h3>Overview - Today</h3>
+  
+<div class="subStats">
+  <div class="stat">
+    Page Views
+    87
+    3%
+  </div>
+  <div class="stat">
+    Likes
   52
   2%
-
-  Likes
+  </div>
+  <div class="stat">
+    Likes
   5462
   2257%
-
-  Profile Views
+  </div>
+  <div class="stat">
+    Profile Views
   52k
   1375%
-
-  Retweets
+  </div>
+  <div class="stat">
+    Retweets
   117
   303%
-
-  Likes
+  </div>
+  <div class="stat">
+    Likes
   507
   553%
-
-  Likes
+  </div>
+  <div class="stat">
+    Likes
   107
   19%
-
-  Total Views
+  </div>
+  <div class="stat">
+    Total Views
   1407
   12%
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
+</div>
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+<script src="scripts/script.js"></script>
+  
+  
+
 </body>
 </html>
